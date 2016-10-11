@@ -1,8 +1,17 @@
-.html{
-    background: src="FR.jpg";
+   body {
+background-image: url(fr.jpg); 
+
+
+-moz-background-size: cover;
+-webkit-background-size: cover;
+background-size: cover;
+background-position: top center !important;
+background-repeat: no-repeat !important;
+background-attachment: fixed;
+font-size: large;
 
 }
-    #slideshow { 
+ #slideshow { 
     margin: 50px auto; 
     position: relative; 
     width: 240px; 
