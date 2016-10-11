@@ -1,5 +1,7 @@
 
 
+
+
 $(function(){
 	$('#last').hide();
 	$('#final').hide();
@@ -33,6 +35,7 @@ $(function(){
 	$('#button2').on('click',function(){
 		$('#button1').hide();
 		$('#slideshow').hide();
+		$('#first').hide();
 		$('#last').show();
 		$("#final").show();
 		$(function(){
